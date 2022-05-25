@@ -1,0 +1,222 @@
+html, body {
+text-align: center;
+height:100%;
+margin: 0;
+padding: 0;
+border: 0;
+}
+#wrapper {
+width: 1000px;
+margin: 0 auto;
+min-height: 100%;
+height: auto !important;
+height: 100%;
+text-align:left;
+background:#888;
+padding:2px;
+}
+#header{
+width: 100%;
+height: 150px;
+background:#ddd;
+margin: 0 ;
+}
+#content{
+width: 100%;
+height: 100%;
+background:#888;
+margin: 2 0 2 0;
+}
+#left_menu{
+width : 250px;
+height: 100%;
+
+
+background:#ddd;
+float : left;
+}
+#info{
+width :748px;
+height: 100%;
+background:#888;
+float:right;
+}
+#top_menu{
+width: 100%;
+height: 30px;
+background:#ddd;
+margin: 0 0 2 0;
+}
+#data{
+width :100%;
+height: 95%;
+background:#ddd;
+margin: 0 0 0 0;
+}
+
+#clear{
+clear:both;
+}
+
+#footer{
+width: 1000px;
+height: 25px;
+background:#d00;
+margin: auto 0;
+/*  margin: -20px auto 0; */
+position: fixed; 
+bottom:0px;
+}
+
+#left_menu ul{
+list-style :none;
+margin :0 auto;
+padding:5 0 0 5;
+/*position: relative;*/
+
+}
+
+#left_menu ul li a {
+margin :2 0 0 0 ;
+padding:0;
+display : block;
+width : 98%;
+height : 30px ;
+line-height : 30px;
+color : #00f;
+text-decoration : none;
+background:#888;
+text-indent:10px;
+}
+/* line-height Описание
+Устанавливает интерлиньяж (межстрочный интервал) текста, отсчет ведется от базовой линии шрифта. При обычных обстоятельствах расстояние между строками зависит от вида и размера шрифта и определяется браузером автоматически. Отрицательное значение межстрочного расстояния не допускается.
+Синтаксис
+line-height: множитель | значение | проценты | normal | inherit 
+
+text-indent   Описание
+Устанавливает величину отступа первой строки блока текста (например, для абзаца <p>). Воздействия на все остальные строки не оказывается. Допускается отрицательное значение для создания выступа первой строки, но следует проверить, чтобы текст не выходил за пределы окна браузера.
+Синтаксис
+text-indent: <значение> | <проценты> | inherit 
+*/
+
+
+#left_menu ul li a:hover {
+margin :2 0 0 0 ;
+padding:0;
+display : block;
+width : 240px;
+height : 30px ;
+line-height : 30px;
+color : #009;
+text-decoration : none;
+background:#999;
+text-indent:10px;
+}
+
+#dropdown-child {
+    display: none;
+    min-width: 200px;
+}
+#left_menu ul li > ul#dropdown-child a {
+margin :2 0 0 30 ;
+padding:0;
+display : block;
+width : 180px;
+height : 25px ;
+line-height : 25px;
+color : #00e;
+text-decoration : none;
+background:#777;
+text-indent:10px;
+}
+#left_menu ul li > ul#dropdown-child a:hover {
+margin :2 0 0 30 ;
+padding:0;
+display : block;
+width : 180px;
+height : 25px ;
+line-height : 25px;
+color : #00a;
+text-decoration : none;
+background:#555;
+text-indent:10px;
+}
+ul li:hover > ul#dropdown-child {
+    display: block;
+}
+/*
+1) display: none;
+2) visibility: hidden;
+*/
+
+div#list{
+float:left;
+background:#ddd;
+width: 29%;
+
+padding:20 0 0 0;
+}
+div#student_info{
+float:right;
+background:#ddd;
+width: 69%;
+
+padding:20 0 20 5;
+}
+div#list table{
+border:1px;
+width: 98%;
+margin: 0 auto;
+color:#ffffFF;
+}
+div#list table th{
+    color:white;
+    background-color:#0000FF;
+}
+div#list table tr:nth-child(odd){
+    color:white;
+    background-color:#4BB1CF;
+}
+div#list table tr:nth-child(even){
+    color:white;
+    background-color:#5EB95E;
+}
+div#list table a{
+color:#ffffFF;
+text-decoration: none;
+}
+div#list table a:hover{
+color:#ddd;
+text-decoration: none;
+}
+div#list table caption{
+color:#000;
+font-weight: bold;
+font-size: larger;
+}
+
+
+div#student_info img{
+width:150px;
+float:left;
+margin:0 10 0 0;
+}
+/*
+}
+#list ul
+{
+margin:0;
+list-style :none;
+}
+#list ul li a{
+text-decoration : none;
+font-size:20;
+
+}
+
+#list ul li a:hover {
+text-decoration : none;
+font-size:20;
+}
+*/
+
